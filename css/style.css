@@ -696,7 +696,10 @@ hr.black {background:rgba(0, 0, 0, 0.85);border-color: rgba(0, 0, 0, 0.85);}
 /*5.1-Section background 1-white, 2-grey and 3-Black */
 .white-section{background-color:#fff !important;}
 .grey-section{background-color:#f8f8f8 !important;}
-.black-section{background-color:#212121 !important;}
+.black-section {
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    /* Standard syntax (must be last) */
+}
 
 /*5.2-Section anchor tag general color style*/
 .black-section{color:#fff;}
