@@ -769,7 +769,14 @@ hr.black {background:rgba(0, 0, 0, 0.85);border-color: rgba(0, 0, 0, 0.85);}
 
 /*6.5-Button size */
 .btn-size-0{padding: 5px 22px;font-size: 12px;letter-spacing: 1px;}
-.btn-size-1{padding: 12px 40px;font-size: 12px;letter-spacing: 2px;}
+.btn-size-1 {
+    padding: 12px 40px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    ;
+}
 .btn-size-2 {padding: 14px 42px;font-size: 13px;letter-spacing: 2.5px;}
 .btn-size-3 {padding: 16px 44px; font-size: 14px;letter-spacing: 3px;}
 .btn-size-4{padding: 18px 46px;font-size: 16px;letter-spacing: 3px;}
